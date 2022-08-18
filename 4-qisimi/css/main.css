@@ -1,0 +1,402 @@
+* {
+  list-style: none;
+  text-decoration: none;
+}
+
+.header-hr {
+  border-bottom: 4px solid #295093;
+}
+
+.header {
+  background: #f6f6f9;
+}
+
+.header-div {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.container {
+  /* padding-top: 50px; */
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  /* justify-content: space-between; */
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.site-h1 {
+  display: none;
+}
+
+.header-link {
+  margin-top: 30px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 5px 5px;
+}
+
+.list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.item {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #7a7a7a;
+  /* margin-left: 40px; */
+  margin: 10px;
+}
+
+.span-item {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  color: #285193;
+}
+
+.btn-link {
+  margin-left: 380px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    right top,
+    color-stop(15.07%, #1e96c8),
+    color-stop(85.96%, #37aee2)
+  );
+  background: -o-linear-gradient(left, #1e96c8 15.07%, #37aee2 85.96%);
+  background: linear-gradient(90deg, #1e96c8 15.07%, #37aee2 85.96%);
+  border-radius: 5px;
+  color: #ffffff;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-link-img {
+  margin-right: 10px;
+}
+
+.site-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  background: #ffffff;
+  -webkit-box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  box-shadow: 0px 2px 5px rgba(159, 159, 159, 0.19);
+  border-radius: 5px;
+  width: 1170px;
+  padding: 30px 10px;
+}
+
+.site-list:active {
+  background-color: #fff;
+  color: #ff0000;
+}
+
+.site-item {
+  margin-left: 20px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 19px;
+  line-height: 23px;
+  color: #515151;
+}
+
+.site-img {
+  margin: 0;
+  padding: 0;
+}
+
+/* MAIN
+/* FORM */
+
+.main-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  display: flex;
+}
+
+.container-form {
+  margin-top: 100px;
+}
+
+.tittle-h2 {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 28px;
+  color: #000000;
+}
+
+input {
+  display: block;
+  margin-top: 20px;
+  width: 600px;
+  height: 50px;
+  padding-left: 20px;
+}
+
+input:focus {
+  background: #1e96c8;
+}
+
+input:hover {
+  border: 2px solid #295091;
+}
+
+textarea {
+  margin-top: 20px;
+  resize: none;
+  width: 585px;
+  height: 307px;
+  padding: 10px 20px;
+  border: 2px solid #295091;
+}
+
+textarea:focus {
+  background: #1e96c8;
+}
+
+textarea:hover {
+  transition: 0.5s;
+  border: 2px solid transparent;
+}
+
+.input-file {
+  width: 221px;
+  height: 50px;
+}
+
+.input-kod {
+  width: 221px;
+  height: 50px;
+}
+
+button {
+  margin-top: 20px;
+  margin-left: 20px;
+  padding: 10px 30px;
+  border-radius: 5px;
+}
+
+button:active {
+  background: #1e96c8;
+  color: #fff;
+}
+
+.button {
+  background: #295093;
+  border: 2px solid rgba(40, 81, 147, 0.54);
+  border-radius: 5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  padding: 10px 40px;
+  margin-left: 0;
+}
+
+/* entry-author */
+
+.entry-author {
+  margin-top: 150px;
+  margin-left: 70px;
+  width: 510px;
+  height: 280px;
+  box-shadow: 0px 8px 9px rgba(57, 57, 57, 0.25);
+  border-radius: 5px;
+}
+
+.entry-link {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 33px;
+  color: #295091;
+  margin-left: 150px;
+}
+
+a {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #888888;
+}
+
+.desc {
+  margin-top: 20px;
+  margin-left: 25px;
+  display: flex;
+}
+
+.desc-link {
+  margin-left: 84px;
+}
+
+.deck-box {
+  margin-top: 30px;
+  margin-left: 25px;
+  display: flex;
+  align-items: center;
+}
+
+.galerya-box {
+  margin-left: 170px;
+}
+
+img {
+  margin-left: 10px;
+}
+
+img:nth-child(1) {
+  margin-left: 0;
+}
+
+.actions-entry {
+  background: #295091;
+  border-radius: 5px;
+  display: flex;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 21px;
+  color: #ffffff;
+  margin-left: 160px;
+  padding: 5px 20px;
+}
+
+.telegiram-icon {
+  margin-right: 6px;
+}
+
+.deck-box-img {
+  margin-left: 20px;
+}
+
+/* FOOTER */
+
+.footer {
+  background: #295093;
+}
+
+.footer-container {
+  width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+  margin-top: 40px;
+}
+
+.footer-box {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+.footer-box-link {
+  background: #133c82;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 19px;
+  color: #ffffff;
+  padding: 10px 10px;
+  border-radius: 5px;
+}
+
+.footer-title {
+  width: 659px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #ffffff;
+  margin-left: 210px;
+}
+
+.footer-btn-link {
+  background: #ffffff;
+  border-radius: 5px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  color: #295093;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-btn-link-img {
+  margin-right: 10px;
+}
+
+.footer-hr {
+  width: 1200px;
+  height: 2px;
+  background: #133c82;
+  border: 2px solid #133c82;
+  margin-top: 26px;
+}
+
+.footer-header-box {
+  display: flex;
+  margin-top: 20px;
+}
+
+.foter-box-div {
+  margin-left: 111px;
+}
+
+.foter-box-div:nth-child(1) {
+  margin-left: 0;
+}
+
+.footer-deck-paragirif {
+  width: 365px;
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  color: #ffffff;
+}
+
+.footer-item {
+  font-family: "Rubik";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 30px;
+  color: #ffffff;
+}
